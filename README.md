@@ -36,7 +36,7 @@ Branch: main
 
 ## Live Netlify Website
 
-Live URL: ADD-YOUR-NETLIFY-URL-HERE
+Live URL: https://spendwise-9fii.netlify.app/
 
 ## Deployment Process Summary
 
