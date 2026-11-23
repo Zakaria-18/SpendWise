@@ -59,19 +59,19 @@ Live URL: https://spendwise-9fii.netlify.app/
 
 ## Challenges Encountered During Deployment
 
-During the deployment of SpendWise, I encountered several configuration and deployment considerations:
+During the deployment of SpendWise, I encountered several challenges:
 
-1. **GitHub Repository Integration:** Connecting the GitHub repository to Netlify required selecting the correct repository and production branch. I resolved this by connecting the `Zakaria-18/SpendWise` repository and selecting the `main` branch.
+1. **GitHub integration:** I had to connect my GitHub repository to Netlify and select the correct production branch. I resolved this by connecting the `Zakaria-18/SpendWise` repository and selecting the `main` branch.
 
-2. **Build Configuration:** Since SpendWise was developed using HTML, CSS and JavaScript without a frontend build framework, a build command was unnecessary. I used Netlify's Plain HTML configuration and left the build command empty.
+2. **Build configuration:** Since the project uses HTML, CSS and JavaScript without a frontend build framework, I did not need a build command. I selected Plain HTML in Netlify.
 
-3. **Publish Directory Configuration:** Netlify needed to know where the website files were located. I configured the project root (`.`) as the publish directory so that `index.html`, `style.css` and `script.js` could be served correctly.
+3. **Publish directory:** I configured the project root (`.`) as the publish directory so Netlify could locate and serve `index.html`, `style.css` and `script.js`.
 
-4. **Website Address Configuration:** I needed a meaningful website address for the project. I used Netlify's domain management settings to configure the project subdomain.
+4. **Website deployment:** I used Netlify to publish the website and provide a public URL that can be accessed through a web browser.
 
-5. **Deployment Verification:** After deployment, I checked that the dashboard sections, navigation, transaction interface and budget components appeared on the live website.
+5. **Deployment verification:** I checked the deployed website to confirm that the dashboard structure and its main components were available.
 
-These deployment considerations helped me understand how GitHub integration, build settings, publish directories and continuous deployment work together when hosting a website on Netlify.
+These challenges helped me understand GitHub integration, static website hosting, deployment configuration and continuous deployment using Netlify.
 
 ## Lessons Learned
 
