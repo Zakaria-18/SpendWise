@@ -59,8 +59,28 @@ Live URL: https://spendwise-9fii.netlify.app/
 
 ## Challenges Encountered During Deployment
 
-Document the actual challenges experienced during deployment, such as configuring the publish directory, connecting GitHub permissions or resolving file path issues.
+During the deployment of SpendWise, I encountered several configuration and deployment considerations:
 
+1. **GitHub Repository Integration:** Connecting the GitHub repository to Netlify required selecting the correct repository and production branch. I resolved this by connecting the `Zakaria-18/SpendWise` repository and selecting the `main` branch.
+
+2. **Build Configuration:** Since SpendWise was developed using HTML, CSS and JavaScript without a frontend build framework, a build command was unnecessary. I used Netlify's Plain HTML configuration and left the build command empty.
+
+3. **Publish Directory Configuration:** Netlify needed to know where the website files were located. I configured the project root (`.`) as the publish directory so that `index.html`, `style.css` and `script.js` could be served correctly.
+
+4. **Website Address Configuration:** I needed a meaningful website address for the project. I used Netlify's domain management settings to configure the project subdomain.
+
+5. **Deployment Verification:** After deployment, I checked that the dashboard sections, navigation, transaction interface and budget components appeared on the live website.
+
+These deployment considerations helped me understand how GitHub integration, build settings, publish directories and continuous deployment work together when hosting a website on Netlify.
+
+## Lessons Learned
+
+- How to connect a GitHub repository to Netlify.
+- How to configure a static website for deployment.
+- How to select the correct publish directory.
+- How to use GitHub commits to trigger automatic deployments.
+- How to verify that a deployed website is accessible and displays its expected content.
+- The importance of checking file paths and project structure before deployment.
 
 ## Data and Privacy
 
